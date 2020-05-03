@@ -22,7 +22,7 @@ Anisimov等人提出的加U方法将所研究的电子分为不考虑Hubbard参�
 
 # 快速开始
 脚本依赖于计算软件vasp、 vaspkit。
-1. git clone https://github.com/cyicz123/BandGap_calculate_GGA-U.git
+1. git clone https://github.com/cyicz123/BandGap_calculate.git
 2. chmod +x calculate.sh
 3. ./calculate.sh -h或者./calculate.sh --help获取帮助
 
