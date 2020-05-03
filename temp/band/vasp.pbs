@@ -1,0 +1,6 @@
+#!/bin/bash
+#PBS -N vasp-test
+#PBS -l nodes=1:ppn=48
+#PBS -l walltime=144:00:00
+cd $PBS_O_WORKDIR
+mpirun -np 48 /usr/bin/vasp_std >out.txt
